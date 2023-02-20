@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "af868d2f-5e30-4189-866c-181203582dfd",
+		"name": "FirstApi3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getConcatenatedStrings1Param",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/strings/?s1=Hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"strings",
+						""
+					],
+					"query": [
+						{
+							"key": "s1",
+							"value": "Hello"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getConcatenatedStrings2Params",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/strings/?s1=Hello&s2=World",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"strings",
+						""
+					],
+					"query": [
+						{
+							"key": "s1",
+							"value": "Hello"
+						},
+						{
+							"key": "s2",
+							"value": "World"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
